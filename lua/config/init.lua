@@ -22,7 +22,6 @@ local opts = {
 		lazy = true,
 	},
 	install = {
-		colorscheme = { "github" }
 	},
   rtp = {
     disabled_plugins = {

@@ -20,3 +20,4 @@ opt.clipboard:append("unnamedplus")
 
 opt.number = true
 opt.relativenumber = true
+opt.timeoutlen = 1500
