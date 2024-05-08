@@ -11,3 +11,6 @@ shortcurts for moving tabs:
 
 moving tabs directly (normal mode)
 <C-j> <C-k> <C-h> <C-l>
+
+to rename (with lsp)
+<leader>r
