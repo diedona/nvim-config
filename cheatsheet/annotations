@@ -1,0 +1,13 @@
+hello again.
+
+open terminal (horizontal)
+<M-h>  (M = alt)
+
+"escape" from terminal without closing:
+<C-x>
+
+shortcurts for moving tabs:
+<C-w>
+
+moving tabs directly (normal mode)
+<C-j> <C-k> <C-h> <C-l>
