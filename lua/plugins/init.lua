@@ -48,5 +48,16 @@ return {
     },
   },
 
+  {
+    "folke/trouble.nvim",
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    cmd = { "TroubleToggle", "Trouble" },
+    keys = {
+      { "<leader>t", desc = "Trouble" },
+      { "<leader>tt", "<cmd>TroubleToggle<cr>", desc = "Trouble Toggle" },
+      { "<leader>tw", "<cmd>TroubleToggle workspace_diagnostics<cr>", desc = "Trouble Toggle Workspace" },
+    },
+  },
+
   require "configs.nvim-lint",
 }
