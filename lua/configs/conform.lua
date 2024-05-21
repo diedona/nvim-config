@@ -3,6 +3,11 @@ local conform = require "conform"
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
+    python = {
+      "black",
+      "ruff_fix",
+      -- "ruff_format", -- may conflict with black?
+    },
   },
 
   format_on_save = {
