@@ -61,7 +61,8 @@ return {
         "vimdoc",
         "html",
         "css",
-        "go"
+        "go",
+        "python"
       },
     },
   },
