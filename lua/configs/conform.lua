@@ -1,3 +1,5 @@
+local conform = require "conform"
+
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
@@ -10,4 +12,12 @@ local options = {
   },
 }
 
-require("conform").setup(options)
+vim.keymap.set({ "n", "v" }, "<leader>fm", function()
+  conform.format {
+    lsp_fallback = true,
+    async = false,
+    timeout_ms = 500,
+  }
+end, { desc = "Format file or range (in visual mode)" })
+
+conform.setup(options)
