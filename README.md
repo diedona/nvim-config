@@ -19,3 +19,8 @@ nvim cheat sheet
 linux KDE needs xclip to copy to + register (clipboard):
 
 "+y
+
+-------------------------------------
+
+- use lsp_signature to have signature help while in insert mode
+  - https://github.com/ray-x/lsp_signature.nvim
