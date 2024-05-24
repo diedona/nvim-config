@@ -10,3 +10,4 @@ map("i", "jk", "<ESC>")
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
 
 map("i", "<C-s>", "<cmd>lua vim.lsp.buf.signature_help() <cr>")
+map("n", "<CR>", "o<Esc>k")
