@@ -40,5 +40,7 @@ require('lazy').setup({
 
     require 'plugins.mini',
 
-    require 'plugins.bufferline'
+    require 'plugins.bufferline',
+
+    require 'plugins.telescope'
 })
