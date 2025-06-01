@@ -1,5 +1,5 @@
-require 'core.keymaps'
 require 'core.options'
+require 'core.keymaps'
 
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
 
@@ -42,5 +42,7 @@ require('lazy').setup({
 
     require 'plugins.bufferline',
 
-    require 'plugins.telescope'
+    require 'plugins.telescope',
+
+    require 'plugins.lazydev'
 })

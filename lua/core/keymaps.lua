@@ -16,3 +16,5 @@ vim.keymap.set('v', '>', '>gv', opts)
 
 vim.keymap.set({'n', 'v'}, 'd', '"_d', { noremap = true, silent = true, desc = 'Delete (discard)' })
 vim.keymap.set({'n', 'v'}, 'x', '"_x', { noremap = true, silent = true, desc = 'Delete (discard)' })
+
+vim.keymap.set('n', '<leader>bc', ':bd | bn<CR>', {desc = '[B]uffer [C]lose and go to next'})
