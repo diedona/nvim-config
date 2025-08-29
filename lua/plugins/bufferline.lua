@@ -8,7 +8,7 @@ return {
 		bufferline.setup({
 			options = {
 				mode = "buffers",
-				separator_style = "slant",
+				separators = "thick",
 			},
 		})
 	end,

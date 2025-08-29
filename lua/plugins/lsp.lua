@@ -202,9 +202,7 @@ return {
 				},
 			},
 
-			bashls = {
-				filetypes = { ".sh" },
-			},
+			bashls = {},
 		}
 
 		-- Ensure the servers and tools above are installed
