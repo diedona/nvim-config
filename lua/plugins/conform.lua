@@ -40,6 +40,7 @@ return { -- Autoformat
 			html = { "prettierd" },
 			json = { "prettierd" },
 			yaml = { "prettierd" },
+			csharp = { "roslyn" },
 			-- Conform can also run multiple formatters sequentially
 			-- python = { "isort", "black" },
 			--

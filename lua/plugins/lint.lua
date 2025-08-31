@@ -9,6 +9,7 @@ return {
 				dockerfile = { "hadolint" },
 				lua = { "selene" },
 				javascript = { "eslint_d" },
+				csharp = { "roslyn" },
 			}
 
 			-- Auto-executar o linter ao guardar um ficheiro

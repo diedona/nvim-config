@@ -60,6 +60,8 @@ require("lazy").setup({
 
 	require("plugins.lsp.typescript"),
 
+	require("plugins.lsp.roslyn"),
+
 	require("plugins.tiny"),
 
 	require("plugins.lint"),
