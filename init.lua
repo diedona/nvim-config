@@ -56,6 +56,10 @@ require("lazy").setup({
 
 	require("plugins.lsp"), -- goes to plugins/lsp/init.lua
 
+	require("plugins.treesitter"),
+
+	require("plugins.lsp.typescript"),
+
 	require("plugins.tiny"),
 
 	require("plugins.lint"),

@@ -8,6 +8,7 @@ return {
 				-- Configuração dos linters por tipo de ficheiro
 				dockerfile = { "hadolint" },
 				lua = { "selene" },
+				javascript = { "eslint_d" },
 			}
 
 			-- Auto-executar o linter ao guardar um ficheiro

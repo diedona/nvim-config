@@ -5,4 +5,7 @@ return {
 	"hadolint",
 	"prettier",
 	"selene",
+	"prettierd",
+	"eslint_d",
+	"eslint-lsp",
 }

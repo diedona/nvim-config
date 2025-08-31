@@ -43,4 +43,11 @@ return {
 			},
 		},
 	},
+
+	html = {},
+
+	ts_ls = {
+		single_file_support = true,
+		filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
+	},
 }
