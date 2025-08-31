@@ -65,4 +65,6 @@ require("lazy").setup({
 	require("plugins.lint"),
 
 	require("plugins.conform"),
+
+	require("plugins.markdown"),
 })
