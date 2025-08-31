@@ -29,4 +29,18 @@ return {
 	},
 
 	bashls = {},
+
+	dockerls = {},
+
+	docker_compose_language_service = {},
+
+	yamlls = {
+		settings = {
+			yaml = {
+				schemas = {
+					kubernetes = "*.yaml",
+				},
+			},
+		},
+	},
 }

@@ -48,6 +48,10 @@ require("lazy").setup({
 
 	require("plugins.lazydev"),
 
+	require("plugins.lsp.luasnip"),
+
+	require("plugins.lsp.blink"),
+
 	require("plugins.lsp"), -- goes to plugins/lsp/init.lua
 
 	require("plugins.conform"),
