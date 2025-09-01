@@ -25,12 +25,10 @@ require("lazy").setup({
 		},
 		opts = {},
 		config = function()
-			require("neo-tree").setup({})
-
 			vim.keymap.set(
 				{ "n", "v" },
 				"<leader>e",
-				":Neotree toggle position=left<CR>",
+				":Neotree toggle reveal_force_cwd<CR>",
 				{ noremap = true, silent = true }
 			)
 		end,
