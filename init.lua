@@ -70,5 +70,7 @@ require("lazy").setup({
 
 	require("plugins.markdown"),
 
-	require("plugins.tmux"),
+	-- require("plugins.tmux"),
+
+	require("plugins.zellij"),
 })
