@@ -69,4 +69,6 @@ require("lazy").setup({
 	require("plugins.conform"),
 
 	require("plugins.markdown"),
+
+	require("plugins.tmux"),
 })
