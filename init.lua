@@ -23,7 +23,17 @@ require("lazy").setup({
 			"nvim-tree/nvim-web-devicons",
 			"MunifTanjim/nui.nvim",
 		},
-		opts = {},
+		opts = {
+			default_component_configs = {
+				filesystem = {
+					bind_to_cwd = true,
+					follow_current_file = {
+						enabled = true,
+						leave_dirs_open = false,
+					},
+				},
+			},
+		},
 		config = function()
 			vim.keymap.set(
 				{ "n", "v" },
