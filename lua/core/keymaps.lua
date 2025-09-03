@@ -17,5 +17,5 @@ vim.keymap.set("i", "<C-s>", "<Esc>:w<CR>a", { silent = true, noremap = true })
 vim.keymap.set("n", "<C-s>", "<Esc>:w<CR>", { silent = true, noremap = true })
 
 vim.keymap.set("n", "<leader>bc", ":bd | bn<CR>", { desc = "[B]uffer [C]lose and go to next" })
-vim.keymap.set("n", "<Tab>", ":bn<CR>", { desc = "Move to next tab" })
-vim.keymap.set("n", "<S-Tab>", ":bp<CR>", { desc = "Move to previous tab" })
+vim.keymap.set("n", "<Tab>", ":bn<CR>", { desc = "Move to next buffer" })
+vim.keymap.set("n", "<S-Tab>", ":bp<CR>", { desc = "Move to previous buffer" })
