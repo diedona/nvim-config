@@ -15,15 +15,15 @@ vim.o.tabstop = 4
 vim.o.softtabstop = 4
 vim.o.expandtab = true
 
-vim.o.list = true
-vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
+-- lets use indent-blankline
+vim.o.list = false
 vim.o.inccommand = "split"
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.o.scrolloff = 10
 
 -- sets the cursor line with a background
-vim.o.cursorline = false
+vim.o.cursorline = true
 
 vim.schedule(function()
 	vim.o.clipboard = "unnamedplus"

@@ -8,4 +8,6 @@ return {
 	"prettierd",
 	"eslint_d",
 	"eslint-lsp",
+	"gofumpt",
+	"goimports",
 }

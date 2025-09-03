@@ -15,34 +15,15 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-	{
-		"nvim-neo-tree/neo-tree.nvim",
-		branch = "v3.x",
-		dependencies = {
-			"nvim-lua/plenary.nvim",
-			"nvim-tree/nvim-web-devicons",
-			"MunifTanjim/nui.nvim",
-		},
-		opts = {
-			default_component_configs = {
-				filesystem = {
-					bind_to_cwd = true,
-					follow_current_file = {
-						enabled = true,
-						leave_dirs_open = false,
-					},
-				},
-			},
-		},
-		config = function()
-			vim.keymap.set(
-				{ "n", "v" },
-				"<leader>e",
-				":Neotree toggle reveal_force_cwd<CR>",
-				{ noremap = true, silent = true }
-			)
-		end,
-	},
+
+	require("plugins.neotree"),
+
+	require("plugins.ibl"),
+
+	require("plugins.autosession"),
+
+	-- i will try out auto-session instead
+	-- require("plugins.persistence"),
 
 	require("plugins.catppuccin"),
 

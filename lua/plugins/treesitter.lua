@@ -1,5 +1,6 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
+	dependencies = {},
 	build = ":TSUpdate",
 	config = function()
 		require("nvim-treesitter.configs").setup({
@@ -15,6 +16,9 @@ return {
 				enable = true,
 			},
 			indent = {
+				enable = true,
+			},
+			pairs = {
 				enable = true,
 			},
 		})
