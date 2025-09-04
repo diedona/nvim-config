@@ -68,6 +68,9 @@ return {
 				--  the definition of its *type*, not where it was *defined*.
 				map_helper("grt", require("telescope.builtin").lsp_type_definitions, "[G]oto [T]ype Definition")
 
+				-- Show signature help in Insert mode on C-k
+				map_helper("<C-k>", vim.lsp.buf.signature_help, "Signature Help", "i")
+
 				-- This function resolves a difference between neovim nightly (version 0.11) and stable (version 0.10)
 				---@param client vim.lsp.Client
 				---@param method vim.lsp.protocol.Method
