@@ -23,7 +23,7 @@ vim.o.inccommand = "split"
 vim.o.scrolloff = 10
 
 -- sets the cursor line with a background
-vim.o.cursorline = true
+vim.o.cursorline = false
 
 vim.schedule(function()
 	vim.o.clipboard = "unnamedplus"
