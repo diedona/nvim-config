@@ -22,6 +22,8 @@ require("lazy").setup({
 
 	require("plugins.autosession"),
 
+	require("plugins.noice"),
+
 	-- i will try out auto-session instead
 	-- require("plugins.persistence"),
 
@@ -32,6 +34,8 @@ require("lazy").setup({
 	require("plugins.which"),
 
 	require("plugins.mini"),
+
+	require("plugins.smear"),
 
 	require("plugins.snacks"),
 

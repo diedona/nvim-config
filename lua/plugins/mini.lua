@@ -17,7 +17,5 @@ return {
 		require("mini.surround").setup()
 
 		require("mini.pairs").setup()
-
-		require("mini.pairs").setup({})
 	end,
 }
