@@ -31,6 +31,10 @@ require("lazy").setup({
 
 	require("plugins.mini"),
 
+	require("plugins.snacks"),
+
+	require("plugins.ufo"),
+
 	require("plugins.lualine"),
 
 	require("plugins.bufferline"),
