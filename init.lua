@@ -27,6 +27,8 @@ require("lazy").setup({
 
 	require("plugins.catppuccin"),
 
+	require("plugins.lazygit"),
+
 	require("plugins.which"),
 
 	require("plugins.mini"),
@@ -62,8 +64,6 @@ require("lazy").setup({
 	require("plugins.conform"),
 
 	require("plugins.markdown"),
-
-	-- require("plugins.tmux"),
 
 	require("plugins.zellij"),
 })
