@@ -42,6 +42,7 @@ return { -- Autoformat
 			yaml = { "prettierd" },
 			csharp = { "roslyn" },
 			go = { "gofumpt", "goimports" },
+			fish = { "fish_indent" }, -- installed by default with fish
 			-- Conform can also run multiple formatters sequentially
 			-- python = { "isort", "black" },
 			--

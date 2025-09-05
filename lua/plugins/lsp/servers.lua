@@ -34,6 +34,8 @@ return {
 
 	docker_compose_language_service = {},
 
+	fish_lsp = {},
+
 	yamlls = {
 		settings = {
 			yaml = {
