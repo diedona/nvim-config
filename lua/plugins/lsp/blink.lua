@@ -5,27 +5,26 @@ return {
 	},
 	build = "cargo build --release",
 	opts = {
-		-- Outras configurações...
+		completion = {
+			documentation = {
+				auto_show = true,
+			},
+		},
+		sources = {
+			default = {
+				"lsp",
+				"buffer",
+				"path",
+				"snippets",
+			},
+		},
 		keymap = {
-			-- Mapeamento para disparar manualmente
+			preset = "enter",
 			["<C-Space>"] = { "show", "show_documentation", "hide_documentation" },
-
-			-- Mapeamentos padrão para navegação na lista
-			["<Tab>"] = {
-				function(cmp)
-					return cmp.select_next()
-				end,
-				"snippet_forward",
-				"fallback",
-			},
-			["<S-Tab>"] = {
-				function(cmp)
-					return cmp.select_prev()
-				end,
-				"snippet_backward",
-				"fallback",
-			},
-			["<CR>"] = { "accept", "fallback" },
+			["<C-e>"] = { "hide" },
+		},
+		signature = {
+			enabled = true,
 		},
 	},
 }
