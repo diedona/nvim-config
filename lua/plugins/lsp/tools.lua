@@ -10,4 +10,5 @@ return {
 	"eslint-lsp",
 	"gofumpt",
 	"goimports",
+	"csharpier",
 }

@@ -40,7 +40,7 @@ return { -- Autoformat
 			html = { "prettierd" },
 			json = { "prettierd" },
 			yaml = { "prettierd" },
-			csharp = { "roslyn" },
+			cs = { "csharpier" },
 			go = { "gofumpt", "goimports" },
 			fish = { "fish_indent" }, -- installed by default with fish
 			-- Conform can also run multiple formatters sequentially
