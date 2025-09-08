@@ -11,6 +11,7 @@ return {
 				"css",
 				"html",
 				"lua",
+				"c_sharp",
 			},
 			highlight = {
 				enable = true,
